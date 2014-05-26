@@ -1,0 +1,43 @@
+net a(0) loc=p17;
+net a(1) loc=p24;
+net a(2) loc=p16;
+net a(3) loc=p63;
+net a(4) loc=p15;
+net a(5) loc=p20;
+net a(6) loc=p32;
+net a(7) loc=p29;
+
+net a(8) loc=p30;
+net a(9) loc=p36;
+net a(10) loc=p33;
+net a(11) loc=p35;
+net a(12) loc=p28;
+net a(13) loc=p18;
+net a(14) loc=p25;
+net a(15) loc=p34;
+
+net d(0) loc=p14;
+net d(1) loc=p19;
+net d(2) loc=p13;
+net d(3) loc=p7;
+net d(4) loc=p12;
+net d(5) loc=p6;
+net d(6) loc=p11;
+net d(7) loc=p4;
+
+net iorq_L loc=p42;
+net rd_L loc=p39;
+net wr_L loc=p41;
+net m1_L loc=p50;
+
+net clk loc=p23;
+net clk BUFG=CLK;
+net reset loc=p99;
+
+net miso loc=p27;      # e1
+net mosi loc=p70;      # e2
+net spi_clk loc=p59;   # e3
+net spi_cs(0) loc=p71; # e4
+net spi_cs(1) loc=p58;  # e5
+net spi_cs(2) loc=p72;  # e6
+net spi_Cs(3) loc=p22;  #e7
